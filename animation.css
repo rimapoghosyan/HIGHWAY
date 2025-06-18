@@ -1,0 +1,9 @@
+nav {
+    top: -1300%;
+    z-index: 5;
+    left: 0;
+}
+
+#check:checked~nav {
+    inset: 0;
+}

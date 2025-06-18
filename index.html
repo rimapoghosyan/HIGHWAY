@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./animation.css">
+</head>
+
+<body>
+    <header class="relative  w-full p-7 z-10 flex justify-between bg-gray-500 items-center p-[0 40px]">
+        <div class="logo">
+            <h1 class="flex font-black text-white text-2xl">HIGH <span class="font-thin text-white text-2xl">WAY</span>
+            </h1>
+        </div>
+        <label for="check" class="text-white text-2xl cursor-pointer"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" class="hidden" id="check">
+        <nav class="absolute  transition-all w-full flex justify-center items-center h-[100vh] bg-[#000000d2]">
+            <label for="check" class="absolute top-4 right-5 text-white text-2xl cursor-pointer"><i
+                    class="fa-solid fa-xmark"></i></label>
+            <input type="checkbox" class="hidden" id="check">
+            <ul class="w-full h-auto flex flex-col justify-center items-center gap-y-8 text-white text-2xl ">
+                <li><a href="#">Home-Full-width</a></li>
+                <li><a href="#">Home-Masonry</a></li>
+                <li><a href="#">Home-small-width</a></li>
+                <li><a href="#">Abaut Us</a></li>
+                <li><a href="#"></a>Blog Entries</li>
+                <li><a href="#">Single Post</a></li>
+                <li><a class="text-xs" href="#">WE CREATE AWESOME TEMPLATES FOR YOU.</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="banner w-full  h-[100vh] bg-[url(https://images.wallpapersden.com/image/download/4k-empty-road-new_bGdlaGiUmZqaraWkpJRobWllrWdma2U.jpg)]
+        bg-cover bg-center bg-norepet flex justify-center items-center text-2xl text-white">
+            <div class="banner-info size-full bg-[#00000087]  flex justify-center items-center flex-col gap-3">
+                <h1 class="text-7xl max-lg:text-6xl text-center text-white">WELCOME TO HIGHWAY</h1>
+                <p>FREE CSS TEMPLATE by templatemo <br>
+                    Homepage with full-width image gallery</p>
+                <button class="w-[50px] h-[50px] bg-black text-white rounded-full border-2 border-white cursor-pointer"><i class="fa-solid fa-down-long"></i></button>
+            </div>
+        </div>
+        <div class="gallery-box flex flex-wrap">
+            <a href="" class=" group w-[33.3%] max-xl:w-[50%] max-md:w-[100%] h-[485px] relative ">
+                <img class="size-full object-cover" src="https://templatemo.com/templates/templatemo_520_highway/img/portfolio_item_4.png" alt="">
+                <div class="info absolute top-[85%] p-2">
+                    <h1 class="text-xl font-black text-white w-full flex items-center gap-3">BIODIESEL<span class="text-xl font-thin text-white">SQUID</span></h1>
+                    <p class="text-xm opacity-0 text-white transition-all group-hover:opacity-100">AVESOME SUBTITTLE GOES HERE</p>
+                </div>
+            </a>
+            <a href="" class=" group w-[33.3%] max-xl:w-[50%] max-md:w-[100%] h-[485px] relative">
+                <img class="size-full object-cover" src="https://templatemo.com/templates/templatemo_520_highway/img/portfolio_item_2.png" alt="">
+                <div class="info absolute top-[85%] p-2">
+                    <h1 class="text-xl font-black text-white w-full flex items-center gap-3">RACLETTE<span class="text-xl font-thin text-white">TAXIDEMRY</span></h1>
+                    <p class="text-xm opacity-0 text-white transition-all group-hover:opacity-100">AVESOME SUBTITLLE GOES HERE</p>
+
+                </div>
+            </a>
+            <a href="" class="group w-[33.3%] max-xl:w-[50%] max-md:w-[100%] h-[485px] relative">
+                <img class="size-full object-cover" src="https://templatemo.com/templates/templatemo_520_highway/img/portfolio_item_3.png" alt="">
+                <div class="info absolute top-[85%] p-2">
+                    <h1 class="text-xl font-black text-white w-full flex items-center gap-3">HUMBLEBRAG<span class="text-xl font-thin text-white">BRUNSH</span></h1>
+                    <p class="text-xm opacity-0 text-white transition-all group-hover:opacity-100">AVESOME SUBTITLLE GOES HERE</p>
+
+                </div>
+            </a>
+            <a href="" class="group w-[33.3%] max-xl:w-[50%] max-md:w-[100%] h-[485px] relative">
+                <img class="size-full object-cover" src="https://templatemo.com/templates/templatemo_520_highway/img/portfolio_item_1.png" alt="">
+                <div class="info absolute top-[85%] p-2">
+                    <h1 class="text-xl font-black text-white w-full flex items-center gap-3">SUCCALENTS<span class="text-xl font-thin text-white">CHAMBRAY</span></h1>
+                    <P class="text-xm opacity-0 text-white transition-all group-hover:opacity-100">AVESOME SUBTITLLE GOES HERE</P>
+
+                </div>
+            </a>
+            <a href="" class="group w-[33.3%] max-xl:w-[50%] max-md:w-[100%] h-[485px] relative">
+                <img class="size-full object-cover" src="https://templatemo.com/templates/templatemo_520_highway/img/portfolio_item_5.png" alt="">
+                <div class="info absolute top-[85%] p-2">
+                    <h1 class="text-xl font-black text-white w-full flex items-center gap-3">FREEGAN<span class="text-xl font-thin text-sm">AESTHETIC</span></h1>
+                    <p class="text-sm opacity-0 text-white transition-all group-hover:opacity-100">AVESOME SUBTITLLE GOES HERE</p>
+
+                </div>
+            </a>
+            <a href="" class="group w-[33.3%] max-xl:w-[50%] max-md:w-[100%] h-[485px] relative">
+                <img class="size-full object-cover" src="https://templatemo.com/templates/templatemo_520_highway/img/portfolio_item_6.png" alt="">
+                <div class="info absolute top-[85%] p-2">
+                    <h1 class="text-xl font-black text-white w-full flex items-center gap-3">TAIYAKI<span class="text-xl font-thin text-sm">VEGAN</span></h1>
+                    <p class="text-sm opacity-0 text-white transition-all group-hover:opacity-100">AVESOME SUBTITLLE GOES HERE</p>
+
+                </div>
+
+            </a>
+            <a href="" class="group w-[33.3%] max-xl:w-[50%] max-md:w-[100%] h-[485px] relative">
+                <img class="size-full object-cover" src="https://templatemo.com/templates/templatemo_520_highway/img/portfolio_item_7.png" alt="">
+                <div class="info absolute top-[85%] p-2">
+                    <h1 class="text-xl font-black text-white w-full flex items-center gap-3">THUNDERCATS<span class="text-xl font-thin text-sm">SANTO</span></h1>
+                    <p class="text-sm opacity-0 text-white transition-all group-hover:opacity-100">AVESOME SUBTITLLE GOES HERE</p>
+
+                </div>
+            </a>
+            <a href="" class="group w-[33.3%] max-xl:w-[50%] max-md:w-[100%] h-[485px] relative">
+                <img class="size-full object-cover" src="https://templatemo.com/templates/templatemo_520_highway/img/portfolio_item_8.png" alt="">
+                <div class="info absolute top-[85%] p-2">
+                    <h1 class="text-xl font-black text-white w-full flex items-center gap-3">WAYFARERS<span class="text-xl font-thin text-sm">YUCCIE</span></h1>
+                    <p class="text-sm opacity-0 text-white transition-all group-hover:opacity-100">AVESOME SUBTITLLE GOES HERE</p>
+
+                </div>
+            </a>
+            <a href="" class="group w-[33.3%] max-xl:w-[50%] max-md:w-[100%] h-[485px] relative">
+                <img class="size-full object-cover" src="https://templatemo.com/templates/templatemo_520_highway/img/portfolio_item_9.png" alt="">
+                <div class="info absolute top-[85%] p-2">
+                    <h1 class="text-xl font-black text-white w-full flex items-center gap-">DISRUPT<span class="text-xl font-thin text-sm">STREET</span></h1>
+                    <p class="text-sm opacity-0 text-white transition-all group-hover:opacity-100">AVESOME SUBTITLLE GOES HERE</p>
+
+                </div>
+            </a>
+
+        </div>
+        <footer>
+            <p class="bg-gray-500 p-7 flex justify-center items-center text-white text-xs">COPYRIGHT © 2018 COMPANY NAME | DESIGNED BY TEMPLATEMO</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>
